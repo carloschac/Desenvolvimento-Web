@@ -1,21 +1,28 @@
-li {
-  color: #EA6E2F;
+h1 {
+  font-size:70px;
+  color: #205D76;
   text-align: center;
-  display: block;
-    margin-left: auto;
-    margin-right: auto;
+  margin-right: 200px; 
+}
+
+
+.container {
+  color: #EA6E2F;
+  line-height: : 500px;
+  padding-left: 15px;
+  text-align: auto;
+  margin-top: : 300px;
+  margin-left: 600px;
 }
 
 ul {
-  color: #EA6E2F;
-  display: inline-block;
-  display: block;
-    margin-left: auto;
-    margin-right: auto;
+  color: #EA6E2F; 
 }
 
 body {
-  background-color: pink; 
+  margin: 0;
+    background-color: #FAF8DA;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .castelo1 {
@@ -25,23 +32,25 @@ body {
     margin-right: auto;
 }
 
-.sleep {
-  width: 50px;
+img {
+  width: 200px;
   display: block;
-    margin-left: 500px;
-    margin-right: 500px;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: middle;
+    /*Imagem*/
 }
 
-.food {
-width: 50px;
-  display: block;
-    margin-left: 500px;
-    margin-right: 500px;
+.slep {
+  color: #205D76;
+    font-size: 30px;
+    /*H2*/
 }
 
-.shop {
-  width: 50px;
-  display: block;
-    margin-left: 500px;
-    margin-right: 500px;
+
+
+
+a {
+  color: #EA6E2F;
+  font-size: 20px;
 }
