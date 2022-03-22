@@ -1,56 +1,78 @@
-h1 {
-  font-size:70px;
-  color: #205D76;
-  text-align: center;
-  margin-right: 200px; 
-}
-
-
-.container {
-  color: #EA6E2F;
-  line-height: : 500px;
-  padding-left: 15px;
-  text-align: auto;
-  margin-top: : 300px;
-  margin-left: 600px;
-}
-
-ul {
-  color: #EA6E2F; 
-}
-
 body {
   margin: 0;
-    background-color: #FAF8DA;
-    font-family: 'Open Sans', sans-serif;
+  background-color: #FAF8DA;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.casteloPrincipal {
+  text-align: center;
 }
 
 .castelo1 {
   width: 700px;
- display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-img {
-  width: 200px;
-  display: block;
-    margin-left: 400px;
-    margin-right: 400px;
-    text-align: middle;
-    /*Imagem*/
-}
-
-.slep {
+.tituloPrincipal {
+  font-size: 70px;
   color: #205D76;
-    font-size: 30px;
-    /*H2*/
 }
 
+.construcao {
+  width: 200px;
 
+}
 
+.local {
+  display: flex;
+  display: -webkit-flex;
+  margin: 50px auto; /*Alinha as imagens com a página e a distância entre as imagens*/
+  width: 450px; /*Ajusta a lárgura das tags <section> */
+}
 
-a {
+.detalhes {
+   margin-left: 30px; /*Ajusta a distância entre o texto e a imagem*/
+}
+
+.texto {
+   padding-left: 15px; /*Ajusta a distância do texto*/
+  color: #FFC122;
+}
+
+.link {
+   color: #EA6E2F;
+  font-size: 20px;
+  text-align: auto;
+}
+
+.link2 {
   color: #EA6E2F;
   font-size: 20px;
+  text-align: auto;
 }
+
+.nomeLocal {
+  margin-bottom: 10px;
+}
+
+.subTitulo {
+  color: #205D76;
+  font-size: 30px;
+}
+
+.finalDaPagina {
+  padding: 2px;
+  background-color: #FFC122;
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.final {
+  color: white;
+  background-color: ;
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+}
+
