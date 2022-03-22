@@ -1,0 +1,47 @@
+li {
+  color: #EA6E2F;
+  text-align: center;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+  color: #EA6E2F;
+  display: inline-block;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+  background-color: pink; 
+}
+
+.castelo1 {
+  width: 700px;
+ display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sleep {
+  width: 50px;
+  display: block;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.food {
+width: 50px;
+  display: block;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.shop {
+  width: 50px;
+  display: block;
+    margin-left: 500px;
+    margin-right: 500px;
+}

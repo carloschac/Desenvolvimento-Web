@@ -1,0 +1,32 @@
+/*Esta é minha folha de estilo*/
+
+h1 {
+	font-size: 20pt;
+	color: white;
+	background-color: #27C5FF;
+	text-align: center;
+	padding: 4px;
+	margin: 4px;
+}
+body {
+	 	font-family: arial;
+}
+
+th {
+	color: #0727EB;
+}
+
+td	{
+	color: #0727EB;
+}
+
+.destaque {
+	color: #0727EB;
+	font-size: 20px;
+	text-align: center;
+}
+
+.pequeno {
+	font-size:10px;
+	text-align: left;
+}
