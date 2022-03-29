@@ -4,6 +4,11 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+@font-face {
+  font-family: Brokenbrush;
+  src:url('fontes/Brokenbrush.ttf');
+}
+
 .casteloPrincipal {
   text-align: center;
 }
@@ -23,7 +28,7 @@ body {
 }
 
 .local {
-  display: flex;
+  display: flex; /* um elemento carrega  do lado do outro*/
   display: -webkit-flex;
   margin: 50px auto; /*Alinha as imagens com a página e a distância entre as imagens*/
   width: 450px; /*Ajusta a lárgura das tags <section> */
@@ -71,7 +76,6 @@ body {
 }
 .final {
   color: white;
-  background-color: ;
   font-family: "Roboto Mono", monospace;
   font-size: 20px;
 }
