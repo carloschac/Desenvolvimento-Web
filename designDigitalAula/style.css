@@ -1,0 +1,78 @@
+.logo {
+width: 234px;
+height: 40.73px;
+left: 0px;
+top: 0px;
+}
+
+.container {
+    padding: 0px 275px 0px 275px; 
+    align-self: center;
+}
+
+nav {
+    margin-left: 400px ;
+    margin-top: 20px;
+    
+}
+
+body {
+    font-family: Helvetica;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+  }
+
+  .link {
+    color: #999999;
+    padding: 10px;
+    text-decoration: none;
+  }
+
+  .banner {
+      background: url(img/banner.jpg);
+      height: 500px;
+      width: 750px;
+  }
+
+  .caixa {
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 50px auto;
+    width: 450px;
+    position: absolute;
+    padding: 30px 20px 30px 20px;
+    color: white;
+    
+  }
+
+  h1 {
+     color: white;
+  }
+
+  a {
+      padding-bottom: 100px;
+      text-decoration: none;
+      color: rgb(0, 167, 245);
+  }
+
+  section {
+      margin-top: 50px;
+      display: flex;
+      gap: 40px;
+  }
+
+  article {
+      width: 264px;
+  }
+
+  .article_img {
+      width: 100px;
+      float: left;
+  }
+
+  p {
+      width: 264px;
+  }
+  
