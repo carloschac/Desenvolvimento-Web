@@ -30,17 +30,17 @@ img, figure, video, embed{
 header {
     width: 100%;
     height: 48px;
-    margin-bottom: 3.6px;
+    margin-bottom: 3.6em;
     margin-top: 3.6em;
 }
 
 .logo {
-    width: 234px;
+    width: 20,74%;
     float: left;
 }
 
 nav {
-    width: 840px;
+    width: 74,46%;
     float: right;
 }
 
@@ -68,11 +68,11 @@ nav li a {
 
 .caixa {
     position: absolute;
-    top: 48px;
+    top: 4,25%;
     background: rgba(0, 0, 0, 0.6);
     color: white;
-    width: 480px;
-    padding: 24px 14px 24px 40px;
+    width: 42,55%;
+    padding: 2.4em 1.4em 2.4em 4.0em;
 }
 
 h1 {
@@ -81,7 +81,7 @@ h1 {
 }
 
 article {
-    width: 264px;
+    width: 23,40%;
     float: left;
     margin-right: 2.4em;
 }
