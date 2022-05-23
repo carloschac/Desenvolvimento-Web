@@ -16,46 +16,46 @@
     <!-- CORES -->
 
     <!-- Classes para formatação de textos -->
-    <h1>Texto primary</h1>
-    <h1>Texto secondary</h1>
-    <h1>Texto success</h1>
-    <h1>Texto info</h1>
-    <h1>Texto warning</h1>
+    <h1 class="text-primary">Texto primary</h1>
+    <h1 class="text-secondary">Texto secondary</h1>
+    <h1 class="text-success">Texto success</h1>
+    <h1 class="text-info">Texto info</h1>
+    <h1 class="text-warning">Texto warning</h1>
     <h1 class="text-danger">Texto danger</h1>
-    <h1>Texto light</h1>
-    <h1>Texto dark</h1>
-    <h1>Texto white</h1>
-    <h1>Texto black 50</h1>
-    <h1>Texto white</h1>
+    <h1 class="text-light">Texto light</h1>
+    <h1 class="text-dark">Texto dark</h1>
+    <h1 class="text-white">Texto white</h1>
+    <h1 class="text-black-50">Texto black 50</h1>
+    <h1 class="text-white-50">Texto white 50</h1>
 
     <br>
     <br>
 
     <!-- Formatação de links -->
-    <a href="#">Link primary</a><br>
-    <a href="#">Link secondary</a><br>
-    <a href="#">Link success</a><br>
-    <a href="#">Link info</a><br>
-    <a href="#">Link warning</a><br>
-    <a href="#">Link danger</a><br>
-    <a href="#">Link light</a><br>
-    <a href="#">Link dark</a><br>
-    <a href="#">Link white</a><br>
+    <a href="#" class="text-primary">Link primary</a><br>
+    <a href="#" class="text-secondary">Link secondary</a><br>
+    <a href="#" class="text-success">Link success</a><br>
+    <a href="#" class="text-info">Link info</a><br>
+    <a href="#" class="text-warning">Link warning</a><br>
+    <a href="#" class="text-danger">Link danger</a><br>
+    <a href="#" class="text-light">Link light</a><br>
+    <a href="#" class="text-dark">Link dark</a><br>
+    <a href="#" class="text-white">Link white</a><br>
 
     <br>
     <br>
 
     <!-- Backgrounds -->
-    <div>Background primary</div>
-    <div>Background secondary</div>
-    <div>Background success</div>
-    <div>Background info</div>
-    <div>Background warning</div>
-    <div>Background danger</div>
-    <div>Background light</div>
-    <div>Background dark</div>
-    <div>Background white</div>
-    <div>Background transparent</div>
+    <div class="bg-primary">Background primary</div>
+    <div class="bg-secondary">Background secondary</div>
+    <div class="bg-success">Background success</div>
+    <div class="bg-info">Background info</div>
+    <div class="bg-warning">Background warning</div>
+    <div class="bg-danger">Background danger</div>
+    <div class="bg-light">Background light</div>
+    <div class="bg-dark">Background dark</div>
+    <div class="bg-white">Background white</div>
+    <div class="bg-transparent">Background transparent</div>
 
     
     <!-- Margin e padding -->
@@ -71,8 +71,8 @@
     m  -> Margin em todos os lados
     Valor a definir (0 até 5)
     -->
-    <h1 class="bg-success" >Margin</h1>
-    <p class="bg-success">Conteúdo principal</p>
+    <h1 class="bg-success m-5" >Margin</h1>
+    <p class="bg-success mx-5">Conteúdo principal</p>
     <h1 class="bg-success">Margin</h1>
 
     <br>
@@ -88,9 +88,9 @@
     p  -> Padding em todos os lados
     Valor a definir (0 até 5)
     -->
-    <h1 class="bg-success">Padding</h1>
-    <p class="bg-success">Conteúdo principal</p>
-    <h1 class="bg-success">Padding</h1>
+    <h1 class="bg-success p-4">Padding</h1>
+    <p class="bg-success pt-5 mb-4">Conteúdo principal</p>
+    <h1 class="bg-success px-4">Padding</h1>
 
     <br>
     <br>
@@ -98,24 +98,24 @@
     <!-- Float -->
 
     <!-- Elementos flutuantes -->
-    <div>
-        <div>Float Left</div>
-        <div>Float Right</div>
+    <div class="clearfix">
+        <div class="bg-primary float-left">Float Left</div>
+        <div class="bg-info float-right">Float Right</div>
     </div>
 
     <!-- Posicionamento fixo - top e bottom -->
-    <h1>Título do conteúdo fixo</h1>
+    <h1 class="bg-danger fixed-bottom mb-0">Título do conteúdo fixo</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.</p>
 
     <!-- 
         Float responsivo - float-<tela>-<direcao>
-            tela: sm, md, lg, xl
+            tela: sm, md, lg, xg
             alinhamento: left, right
      -->
-    <div>tela &gt;= 576px * </div><!--Small-->
-    <div>tela &gt;=  768px * </div><!--Medium-->
-    <div>tela &gt;= 992px * </div><!--Large-->
-    <div>tela &gt;= 1200px * </div><!--Extra Large-->
+    <div class="float-sm-right">tela &gt;= 576px * </div><!--Small-->
+    <div class="float-md-right">tela &gt;=  768px * </div><!--Medium-->
+    <div class="float-lg-right">tela &gt;= 992px * </div><!--Large-->
+    <div class="float-xg-right">tela &gt;= 1200px * </div><!--Extra Large-->
 
     <br>
     <br>
@@ -124,10 +124,10 @@
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.</p>
 
     <!-- Colar no topo (sticky) -->
-    <ul>
-      <li>Item 1</li>
-      <li>Item 2</li>
-      <li>Item 3</li>
+    <ul class="list-inline bg-dark text-white p-2 sticky-top">
+      <li class="list-inline-item">Item 1</li>
+      <li class="list-inline-item">Item 2</li>
+      <li class="list-inline-item">Item 3</li>
     </ul>
 
     <h1>Título do conteúdo</h1>
@@ -139,24 +139,26 @@
 
     <!-- classes de largura  - width -->
 
-    <div>width 25%</div>
-    <div>width 50%</div>
-    <div>width 75%</div>
-    <div>width 100%</div>
-    <div>width auto</div>
+    <div class="bg-warning w-25">width 25%</div>
+    <div class="bg-success w-50">width 50%</div>
+    <div class="bg-info w-75">width 75%</div>
+    <div class="bg-danger w-100">width 100%</div>
+    <div class="bg-warning w-auto">width auto</div>
 
     <br>
     <br>
 
     <!-- classes de altura - height -->
 
-    <div>
-        <div>height 25%</div>
-        <div>height 50%</div>
-        <div>height 75%</div>
-        <div>height 100%</div>
-        <div>height auto</div>
+    <div style="height: 300px; border: 1px solid gray;">
+        <div class="bg-warning d-inline-block h-25 px-2">height 25%</div>
+        <div class="bg-success d-inline-block h-50 px-2">height 50%</div>
+        <div class="bg-info d-inline-block h-75 xp-2">height 75%</div>
+        <div class="bg-danger d-inline-block h-100 px-2">height 100%</div>
+        <div class="bg-warning d-inline-block h-auto px-2">height auto</div>
     </div>
+
+
 
     <br>
     <br>
@@ -172,11 +174,11 @@
     border-<cor>: primary, secondary, success, 
         info, warning, danger, light, dark, white
     -->
-    <div>todas as bordas</div>
-    <div>borda superior</div>
-    <div>borda inferior</div>
-    <div>borda direita</div>
-    <div>borda esquerda</div>
+    <div class="border border-danger my-3">todas as bordas</div>
+    <div class="border-top border-danger my-3">borda superior</div>
+    <div class="border-bottom border-danger my-3">borda inferior</div>
+    <div class="border-right border-danger my-3">borda direita</div>
+    <div class="border-left border-danger my-3">borda esquerda</div>
 
     <br>
     <br>
@@ -185,12 +187,12 @@
     opções: rounded, rounded-top, rounded-right, 
             rounded-right, rounded-left, rounded-circle
     -->
-    <div>rounded</div>
-    <div>rounded top</div>
-    <div>rounded bottom</div>
-    <div>rounded right</div>
-    <div>rounded left</div>
-    <div>rounded circle</div>
+    <div class="bg-info rounded mb-3">rounded</div>
+    <div class="bg-warning rounded-top mb-3">rounded top</div>
+    <div class="bg-dark rounded-bottom mb-3">rounded bottom</div>
+    <div class="bg-danger rounded-right mb-3">rounded right</div>
+    <div class="bg-success rounded-left mb-3">rounded left</div>
+    <div class="bg-danger rounded-circle mb-3">rounded circle</div>
 
     <br>
     <br>
